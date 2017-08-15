@@ -1,0 +1,4 @@
+- jQuery is client-side
+- jQuery is a js library
+- Older version of Jquery supports older browsers
+

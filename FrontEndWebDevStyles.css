@@ -1,0 +1,127 @@
+/* FrontEndWebDevStyles.css */
+
+
+header, footer {
+            background-color: lightgray;
+            border: 1px solid black;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+footer {
+    padding: 10px;
+    border-radius: 3px;
+}
+
+body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px; 
+        background-color: blue;
+}
+
+a {
+    color: green;
+}
+
+.bordered-image {
+    border: solid 1px #444;
+    border-radius: 2px;
+    /* width: 300px;
+    height: 40px; */
+}
+
+html, body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#results {
+    padding: 2px;
+    width: 600px;
+    display: inline-block; /*will attempt to make block element fit on same line if there
+                            enough space*/
+    vertical-align: top;
+}
+/*Class Selectors*/
+.simple-form {
+    padding: 2px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    /* Choose position of object
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    */
+}
+.simple-form label {
+    font-weight: bold;
+}
+
+/* Relative Selectors*/
+.simple-form input[type=text], 
+.simple-form select,
+.simple-form input[type=password],
+.simple-form textarea {
+    width: 150px;
+}
+
+.simple-form input[type=submit] {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+.container {
+    width: 989px;
+    margin: 0 auto; /* Center page and remove margin on top and bottom */
+    background-color: white;
+    padding: 5px;
+}
+
+/*Id Selectors*/
+#main {
+    border: solid 1px #ccc;
+    border-radius: 5px;
+    color: #202020;
+    margin: 20px 0px 20px 0px; /* top, right, bottom, left*/
+    padding: 5px;
+}
+
+header nav { /*any nav in the header */
+    /*float will move element wherever you specify */
+    float: right;
+    margin-right: 5px;
+}
+
+header nav li { /*Make list horizontal/inline */
+    display: inline;
+}
+
+.result {
+    margin: 5px;
+    border: 1px solid #888;
+}
+
+.result .title {
+    font-weight: bold;
+}
+
+/* Relative Selectors
+#main label {
+    font-weight: bold;
+}
+
+#main input[type=text], #main select {
+    width: 150px;
+}
+
+#main input[type=submit] {
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    padding: 3px;
+    margin-top: 5px;
+}
+*/
